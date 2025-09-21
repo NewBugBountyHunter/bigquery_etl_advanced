@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache/
+*.egg-info/
+*.egg
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# VS Code / IDEs
+.vscode/
+.idea/
+
+# Dados brutos / CSVs pesados
+data/raw\ bi.csv
+data/*.csv
+
+# Logs e temporários
+*.log
+tmp/
+temp/
+
+# Arquivos compilados / binários
+*.so
+*.dll
+*.exe
+
+# Python environment
+.venv/
+venv/
+env/
+.env
+
+# Arquivos de cache do pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testes / coverage
+.coverage
+htmlcov/
+*.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Misc
+.DS_Store
+Thumbs.db
